@@ -107,7 +107,7 @@ def get_da_transformation(img_size):
     return T.Compose([
         T.Resize((img_size, img_size), InterpolationMode.BICUBIC),
         T.ToTensor(),
-        FastSVDNA(target_path="/data1/projects/FedMIM/transforms/NORMAL-36734-8.jpeg", img_size=img_size, k=100),
+        FastSVDNA(target_path="./NORMAL-36734-8.jpeg", img_size=img_size, k=100),
         UnsharpMaskTransform(radius=2, percent=150, threshold=3),
         T.Grayscale(1),
         T.ToTensor(),
