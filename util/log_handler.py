@@ -110,26 +110,3 @@ if __name__ == "__main__":
         print(output)
         all_auc_values.clear()
         
-
-
-
-    # # directory_path = '../mae/log_100/'  # Update this to your directory
-    # directory_path = '../centralized/log_100/'  # Update this to your directory
-    # log_names = "mim_37_128.txt"
-    # # Initialize a dictionary to hold the F1 scores for each DS
-    # f1_scores = {}
-
-    # logs = natsorted([filename for filename in os.listdir(directory_path) if filename.endswith(log_names)])
-    # print(logs)
-    # total = 0
-    # # Loop through each file in the directory
-    # for filename in logs:
-    #     ds_name = filename.split('_')[0].upper()
-    #     filepath = os.path.join(directory_path, filename)
-    #     with open(filepath, 'r') as file:
-    #         content = file.read()
-    #         specific_f1, other_f1_sum = extract_f1_scores(content, ds_name)
-    #         print(f"{ds_name} F1: {specific_f1}")
-    #         total += other_f1_sum
-
-    # print(f"Total: {total}")
