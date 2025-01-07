@@ -38,7 +38,7 @@ def avg_hist(dataloader):
     return avg_hist
 
 
-load_dotenv(dotenv_path="../data2/.env")
+load_dotenv(dotenv_path="../data/.env")
 server_port = os.getenv('DATASET_PATH')
 DATASET_PATH = os.getenv('DATASET_PATH')
 kermany_classes, srinivasan_classes, oct500_classes, nur_classes, waterloo_classes, octdl_classes, uic_dr_classes = (
