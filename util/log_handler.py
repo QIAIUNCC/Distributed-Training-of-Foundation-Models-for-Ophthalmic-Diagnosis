@@ -85,7 +85,7 @@ def extract_f1_scores(content, ds_name):
 
 if __name__ == "__main__":
     # Define the directory containing the files
-    directory = "../centralized/log_100/"  # Replace with your directory path
+    directory = ""  # Replace with your directory path
     search_pattern = "local_8"
     # Initialize a list to store the AUC values across all files
     all_auc_values = []
