@@ -34,8 +34,6 @@ def rename_images_in_directory(root_path):
             print(f"Renamed: {file_path} -> {new_file_path}")
 
 # Example usage
-input_csv = '/data1/OCT/NEH_UT_2021RetinalOCTDataset/data_information.csv'
-# output_csv = 'output.csv'
-# correct_directory_names(input_csv, output_csv)
+input_csv = 'path to DS4/NEH_UT_2021RetinalOCTDataset/data_information.csv'
 
 rename_images_in_directory("/data1/OCT/NEH_UT_2021RetinalOCTDataset")
