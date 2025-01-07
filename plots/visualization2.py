@@ -26,7 +26,7 @@ from util.utils import set_seed
 if __name__ == "__main__":
     set_seed(42)
     load_dotenv(dotenv_path="../data/.env")
-    architecture = "mim_ex90"
+    architecture = "mode name"
     batch_size = 32
     cls_batch_size = 32
     img_size = 224
