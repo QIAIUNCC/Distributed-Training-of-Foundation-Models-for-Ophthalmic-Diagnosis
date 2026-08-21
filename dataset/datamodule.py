@@ -11,7 +11,7 @@ import lightning.pytorch as pl
 import torch
 from torch.utils.data import DataLoader
 from dataset.OCT_dataset import OCTDataset, get_kermany_imgs, get_srinivasan_imgs, get_oct500_imgs, get_nur_dataset, \
-    get_waterloo_dataset, get_class, get_UIC_DR_imgs, get_Mario_imgs, get_WF_imgs, get_OIMHS_imgs, get_OLIVE_imgs, get_THOCT_imgs, OCTSeqDataset
+    get_waterloo_dataset, get_class, get_UIC_DR_imgs, OCTSeqDataset
 
 
 class KermanyDataModule(pl.LightningDataModule):

@@ -107,7 +107,7 @@ if __name__ == "__main__":
     # dad_image_path = "../DS3-target_image.bmp"
     # dad_image_path = "../DS4-target_image.tif"
     # dad_image_path = "../DS5-target_image.jpeg"
-    dad_image_path = "../DS6-target_image.jpg"
+    dad_image_path = "../transforms/DS1-target_image.jpeg"
 
 
     load_dotenv(dotenv_path="../data/.env")

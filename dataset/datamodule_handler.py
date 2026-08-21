@@ -10,7 +10,7 @@ import numpy as np
 from dotenv import load_dotenv
 
 from dataset.datamodule import KermanyDataModule, SrinivasanDataModule, OCT500DataModule, NurDataModule, \
-    WaterlooDataModule, OCTDLDataModule, UICDRDataModule, MarioDataModule, WFDataModule, OIMHSDataModule, THOCTDataModule, OLIVEDataModule
+    WaterlooDataModule, OCTDLDataModule, UICDRDataModule
 from transforms.apply_transforms import get_test_transformation
 from util.data_labels import get_full_classes
 from util.utils import set_seed
